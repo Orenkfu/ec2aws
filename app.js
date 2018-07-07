@@ -19,7 +19,7 @@ if (cluster.isMaster) {
     const port = process.env.PORT || 3000;
     app.listen(port, () => console.log(`Server listening on port ${port}..`))
 
-    require('./dynamo/test');
+    // require('./dynamo/test');
 
 
     app.use(express.static('public'))
