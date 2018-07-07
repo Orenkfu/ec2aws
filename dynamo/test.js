@@ -18,4 +18,4 @@ function callback(err, result) {
 function searchByTitle(callback) {
     db.query(params, callback(err, result));
 }
-searchByTitle(callback);
+//searchByTitle(callback);
